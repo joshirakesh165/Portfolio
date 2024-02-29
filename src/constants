@@ -1,0 +1,140 @@
+const userData = {
+    name: 'Rakesh Joshi',
+    role: 'Frontend Developer',
+    experience: '8+ years',
+    location: 'Gurgaon',
+    contactNumber:'',
+    emailId:'joshirakesh165@gmail.com',
+    homeProfilePic:'./assets/rounded-profile-pic.png',
+    aboutProfilePic:'./assets/pic-about.jpeg',
+    resumePDFurl:'./assets/Rakesh_Resume.pdf',
+    linkedinProfileURL: 'https://www.linkedin.com/in/rakesh-joshi-8142a2150/',
+
+    socials: [
+        {
+            name :'linkedin',
+             logo:'./assets/linkedin.png',
+            logoB:'./assets/linkedin.png',
+            logoW:'./assets/linkedin-white.png',
+            profileURL: 'https://www.linkedin.com/in/rakesh-joshi-8142a2150/',
+        },
+        {
+            name :'github',
+            logo:'./assets/github.png',
+            logoB:'./assets/github.png',
+            logoW:'./assets/github-white.png',
+            profileURL: 'https://github.com/joshirakesh165/',
+        },
+        {
+            name :'facebook',
+            logo:'',
+            logoB:"",
+            logoW:"",
+            profileURL: '',
+        },
+        {
+            name :'instagram',
+            logo:'',
+            logoB:"",
+            logoW:"",
+            profileURL: '',
+        },
+        {
+            name :'google',
+            logo:'./assets/google-logo2.png',
+            logoB:'./assets/google-logo2.png',
+            logoW:'./assets/google-logo2.png',
+            profileURL: '',
+        },
+        {
+            name :'youtube',
+            logo:'',
+            logoB:"",
+            logoW:"",
+            profileURL: '',
+        }
+    ],
+    profileImageUrl: '',
+    resumeURL:'',
+    education: ['MCA'],
+    aboutMeDescription: 'A senior front-end developer with over 8 years of experience, specialising in web application development, Agile, Scrum, and UX design.Experience of Managing a small team to design Single Page Application using Angular and React.',
+    experiencedetails: [
+        {
+            organisatioName:'TCS',
+            from :'Jan 2016',
+            to :'',
+            duration:''
+        },
+        {
+            organisatioName:'Nagarro',
+            from :'Jan 2016',
+            to :'',
+            duration:''
+        },
+        {
+            organisatioName:'Airtel',
+            from :'Jan 2016',
+            to :'',
+            duration:''
+        },
+        {
+            organisatioName:'Ciena',
+            from :'Jan 2016',
+            to :'',
+            duration:''
+        }
+
+    ],
+    projects: [
+        {
+            name:'Chat Application',
+            logo:'./assets/chat-app.png',
+            repoLink:'https://github.com/joshirakesh165/React-chat-app',
+            demoLink:'https://chatrj.netlify.app/'
+        },
+        {
+            name :'Kanban Board',
+            logo:'./assets/kanban-board.png',
+            "repoLink":"https://github.com/joshirakesh165/Kanboard",
+            demoLink:'https://rj-kanban-board.netlify.app/'
+        },
+        {
+            name :'Mini Projects',
+            logo:'./assets/mini-projects.png',
+            "repoLink":"https://github.com/joshirakesh165/Assignments",
+            demoLink:'https://rj-mini-projects.netlify.app/'
+        }
+    ],
+    skillDetails: [
+        {
+            name:'Frontend Development',
+            skills:[
+                {name:'HTML5',level:'Experienced'},
+                {name:'CSS3',level:'Experienced'},
+                {name:'Javascript',level:'Experienced'},
+                {name:'Typescript',level:'Experienced'},
+                {name:'Angular',level:'Experienced'},
+                {name:'React',level:'Experienced'}
+            ]
+        },
+        {
+            name:'Backend Development',
+            skills:[
+                {name:'Node JS',level:'Intermediate'},
+                {name:'Express JS',level:'Intermediate'},
+            ]
+        },
+        {
+            name:'Database',
+            skills:[
+                {name:'Mongo DB',level:'Intermediate'},
+                {name:'Neo4j',level:'Basic'},
+                {name:'SQL',level:'Basic'},
+                {name:'MySQL',level:'Basic'}
+            ]
+        },
+    ],
+
+}
+
+export default userData

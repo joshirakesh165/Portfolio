@@ -1,0 +1,25 @@
+   :root {
+    --body_background: white;
+    --body_color: black;
+    --p-85_color:rgb(85, 85, 85);
+    --c-container_background:rgb(250, 250, 250);
+    --c-163_border: rgb(163, 163, 163);
+    --c-53_border: rgb(53, 53, 53);
+    --c-250_background: (250, 250, 250);
+    --c-181: rgb(181, 181, 181);
+    --c-255: rgb(255, 255, 255);
+    --c-grey:grey;
+}   
+
+  [data-theme="dark"] {
+    --body_background: black;
+    --body_color: white;
+    --p-85_color:rgb(250, 250, 250);
+    --c-container_background:rgb(245, 235, 235);
+    --c-163_border: rgb(163, 163, 163);
+    --c-53_border: rgb(245, 245, 245);
+    --c-250_background: (250, 250, 250);
+    --c-181: rgb(181, 181, 181);
+    --c-255: rgb(255, 255, 255);
+    --c-grey:grey;
+}  

@@ -87,6 +87,24 @@ const userData = {
     ],
     projects: [
         {
+            name:'Basic Canvas APP with socket IO',
+            logo:'./assets/basic-draw.png',
+            repoLink:'https://github.com/joshirakesh165/canvasApp',
+            demoLink:'https://basic-draw.onrender.com/'
+        },
+        {
+            name:'Api Mocker',
+            logo:'./assets/api-mocker.png',
+            repoLink:'https://github.com/joshirakesh165/mockit',
+            demoLink:'https://apimocker.onrender.com/'
+        },
+        {
+            name:'Commit Folder to github',
+            logo:'./assets/commit-to-github.png',
+            repoLink:'https://github.com/joshirakesh165/commit-to-github',
+            demoLink:'https://commit-to-github-rj.netlify.app/'
+        },
+        {
             name:'Chat Application',
             logo:'./assets/chat-app.png',
             repoLink:'https://github.com/joshirakesh165/React-chat-app',
